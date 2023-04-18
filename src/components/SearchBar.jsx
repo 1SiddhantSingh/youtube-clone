@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Paper, IconButton } from "@mui/material";
-import { Search } from "@mui/material";
 
+import SearchIcon from '@mui/icons-material/Search';
 const SearchBar = () => {
   return (
     <Paper
@@ -26,6 +26,7 @@ const SearchBar = () => {
       <IconButton type="submit" sx={{ p: "10px", color: "red" }}>
        
       </IconButton>
+      <SearchIcon/>
     </Paper>
   )
 };
